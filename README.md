@@ -28,7 +28,7 @@ For me, I use it when working on my compiler project. It can create me a diagram
       <tr>
         <td>Google's Gemini</td>
         <td align="center">☑️</td>
-        <td></td>
+        <td><b>More Info:</b> This works best in your own, custom Gemini Gem, where you can set the custom instructions there. MGGU seemed to perform the best here as well when V2 was originally developed.</td>
       </tr>
       <tr>
         <td>Anthropic's Claude</td>
@@ -37,13 +37,13 @@ For me, I use it when working on my compiler project. It can create me a diagram
       </tr>
       <tr>
         <td>Website GitHub Copilot</td>
-        <td align="center">⚠️</td>
+        <td align="center">☑️</td>
         <td><b>More Info:</b> Don't expect different results than VS Code's native one.</td>
       </tr>
       <tr>
         <td>VS Code's GitHub Copilot</td>
-        <td align="center">❌</td>
-        <td><b>Issue:</b> User requests are favored over custom instructions.</td>
+        <td align="center">☑️</td>
+        <td><b>More Info:</b> Custom instructions has been updated to be favored over user requests. Results seemingly show Copilot to be generating <i>very</i> small snippets of code, but refusing to give full code blocks, even for redundant tasks.</td>
       </tr>
     </tbody>
   </table>
