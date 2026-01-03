@@ -4,7 +4,7 @@ MGGU stands for **Make GPT Genuinely Useful**, and is named this way in the sens
 
 MGGU is very useful in the sense that when you ask it for help: It will _actually_ do its research on topics and give you sources in a way that's not _giving_ you the answer fully, but _guiding_ you towards it.
 
-For me, I use it when working on my compiler project. It can create me a diagram on what to do next, what I should implement or optimize, and be like an assist, like how AI was originally supposed to be.
+For me, I use it when working on my compiler project. It can create me a diagram on what to do next, what I should implement or optimize, and be like an assistant, like how AI was originally supposed to be.
 
 ## MGGU Prompt
 <details>
