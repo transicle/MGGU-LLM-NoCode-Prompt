@@ -17,6 +17,8 @@ MGGU stands for **Make GPT Genuinely Useful**, and is designed to cut off code g
 
 ```
 
+> The install commands are designed for GitHub Copilot on VS Code.
+
 ## MGGU Prompt
 
 <details>
