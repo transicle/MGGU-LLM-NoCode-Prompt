@@ -7,10 +7,10 @@ set -euo pipefail
 info()  { printf "  ${CYAN}›${RESET} %s\n" "$*"; }
 error() { printf "  ${RED}✗${RESET} ${BOLD}%s${RESET}\n" "$*" >&2; }
 
-[[ $# -lt 1 ]] && { error "Usage: $0 <raw-skill-url> [workspace-root]"; exit 1; }
+[[ $# -lt 1 ]] && { error "Usage: $0 [workspace-root]"; exit 1; }
 
-URL="$1"
-SKILLS_DIR="${2:-$PWD}/.github/skills"
+URL="https://raw.githubusercontent.com/transicle/MGGU-LLM-NoCode-Prompt/refs/heads/main/SKILL.md"
+SKILLS_DIR="${1:-$PWD}/.github/skills"
 
 printf "\n${BOLD}Installing Copilot skill${RESET}\n\n"
 info "Getting skill from repo..."
