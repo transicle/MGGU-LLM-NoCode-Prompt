@@ -8,13 +8,13 @@ MGGU stands for **Make GPT Genuinely Useful**, and is designed to cut off code g
 ### Windows
 
 ```powershell
-irm https://win.mggu.transgirls.love/ | iex
+irm https://raw.githubusercontent.com/transicle/MGGU-LLM-NoCode-Prompt/refs/heads/main/tools/mggu.ps1 | iex
 ```
 
 ### Linux / macOS
 
 ```bash
-curl -fsSL https://unix.mggu.transgirls.love/ | bash
+curl -fsSL https://raw.githubusercontent.com/transicle/MGGU-LLM-NoCode-Prompt/refs/heads/main/tools/mggu.sh | bash
 ```
 
 > The install commands are designed for GitHub Copilot on VS Code.
